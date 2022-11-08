@@ -1,0 +1,46 @@
+
+
+
+GET http://localhost:1234/consultar
+
+###
+
+POST http://localhost:1234/registrar
+Content-Type: application/json
+
+{
+    "nif": "ABC",
+    "nombre": "EDWIN",
+    "apellido1": "GALAN",
+    "apellido2": "SERRANO",
+    "codigo_departamento": 150
+}
+
+###
+
+POST http://localhost:1234/actualizar
+Content-Type: application/json
+
+{    
+    "nif": "AA",
+    "nombre": "PEDRO",
+    "apellido1": "ACOSTA",
+    "apellido2": "PEREZ",
+    "codigo_departamento": 250
+}
+
+###
+
+
+
+
+
+
+
+
+
+
+
+
+
+
